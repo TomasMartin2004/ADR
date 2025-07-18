@@ -1,0 +1,68 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+
+# Virtual Environment
+Backend/venv/
+Backend/env/
+Backend/.venv/
+
+# Node.js
+Frontend/adr/node_modules/
+Frontend/adr/.pnp
+Frontend/adr/.pnp.js
+
+# React
+Frontend/adr/coverage/
+Frontend/adr/.nyc_output
+Frontend/adr/build/
+Frontend/adr/.DS_Store
+Frontend/adr/.env.local
+Frontend/adr/.env.development.local
+Frontend/adr/.env.test.local
+Frontend/adr/.env.production.local
+Frontend/adr/npm-debug.log*
+Frontend/adr/yarn-debug.log*
+Frontend/adr/yarn-error.log*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db 
