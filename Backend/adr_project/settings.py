@@ -127,6 +127,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # CORS settings for React frontend
 CORS_ALLOWED_ORIGINS = [
+    "http://172.191.206.116",
     "http://localhost:3000",
     "http://127.0.0.1:3000",
 ]
