@@ -2,8 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./App.css";
 import axios from "axios";
 
-const API_BASE_URL = "http://localhost:8000/api/empleados/";
-
+const API_BASE_URL = "http://172.191.206.116:8000/api/empleados/";
 function App() {
   const [empleados, setEmpleados] = useState([]);
   const [formData, setFormData] = useState({
